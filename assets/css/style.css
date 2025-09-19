@@ -10556,3 +10556,9 @@ h3.cs_iconbox_title.cs_fs_23.cs_bold.mb-0.text-center {
   -webkit-box-shadow: none;
           box-shadow: none;
 }/*# sourceMappingURL=style.css.map */
+
+@media (max-width:480px) {
+ .cs_main_header img {
+    width: 90px;
+}
+}
