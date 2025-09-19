@@ -233,6 +233,7 @@
               breakpoint: 768,
               settings: {
                 slidesToShow: xsPoing,
+                slidesPerView: 1
               },
             },
           ],
