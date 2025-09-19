@@ -214,26 +214,25 @@
             {
               breakpoint: 1600,
               settings: {
-                slidesToShow: lgPoint,
+                slidesToShow: lgPoint || 3
               },
             },
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: mdPoint,
+                slidesToShow: mdPoint || 2
               },
             },
             {
               breakpoint: 992,
               settings: {
-                slidesToShow: smPoint,
+                slidesToShow: smPoint || 2
               },
             },
             {
               breakpoint: 768,
               settings: {
-                slidesToShow: xsPoing,
-                slidesPerView: 1
+                slidesToShow: xsPoing || 1
               },
             },
           ],
