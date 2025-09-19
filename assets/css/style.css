@@ -10561,4 +10561,8 @@ h3.cs_iconbox_title.cs_fs_23.cs_bold.mb-0.text-center {
  .cs_main_header img {
     width: 90px;
 }
+.cs_hero.cs_style_1 .cs_hero_overlay
+{
+  background: linear-gradient(270deg, #2b4e82cc 25%, var(--accent-color) 100%);
+}
 }
