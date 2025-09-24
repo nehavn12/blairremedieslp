@@ -1325,7 +1325,7 @@ textarea {
 }
 
 .cs_fs_72 {
-  font-size: 72px;
+  font-size: 62px;
   line-height: 1.14em;
 }
 @media (max-width: 1400px) {
@@ -1335,7 +1335,7 @@ textarea {
 }
 @media (max-width: 991px) {
   .cs_fs_72 {
-    font-size: 50px;
+    font-size: 34px;
   }
 }
 
