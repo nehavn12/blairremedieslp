@@ -10566,3 +10566,35 @@ h3.cs_iconbox_title.cs_fs_23.cs_bold.mb-0.text-center {
   background: linear-gradient(270deg, #2b4e82cc 25%, var(--accent-color) 100%);
 }
 }
+
+
+/* code for fixed mobile view */
+/* Hide by default */
+.fvcon {
+  display: none;
+}
+
+/* Show only on screens smaller than 768px (mobile view) */
+@media only screen and (max-width: 767px) {
+  .fvcon {
+    display: flex; /* or block depending on your layout */
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .fvcon a {
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .fvcon a.what {
+    background: #25D366; /* WhatsApp green */
+  }
+}
